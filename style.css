@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    overflow-x: hidden;
+    height: 400vh;
+}
+/*begin code of home page*/
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: linear-gradient(to right bottom , #ff5100 , #fa905f);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+header img{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: -100px;
+    left: -30px;
+}
+header p{
+    color: white;
+    font-family: cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    position: absolute;
+    top: 550px;
+    left: 400px;
+}
+header pre{
+    color: white;
+    font-family: cursive;
+    font-size: 100px;
+    position: absolute;
+    top: 700px;
+    left: 100px;
+}
+nav{
+    width: 98%;
+    height: 300px;
+    margin: 10px auto 10px auto;
+}
+nav button{
+    width: 20%;
+    height: 200px;
+    margin: 50px 0px 0px 100px;
+    border-radius: 4px;
+    border: none;
+    transition: .5s;
+    background-color: white;
+}
+nav button i{
+    font-size: 100px;
+    color: black;
+}
+nav button:hover{
+    background-color: #ff5100;
+    cursor: pointer;
+    transform: scale(1.3,1.05);
+    border-radius: 20px;
+}
+.HOME{
+    width: 100%;
+    height: 200vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.div_content_image{
+    width: 100%;
+    height: fit-content;
+    overflow-x: hidden;
+}
+.HOME .content_image{
+    width: 100%;
+    height: 1000px;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    transition: .5s;
+    background-color: white;
+}
+.HOME .content_image div{
+    width: 50%;
+    height: 900px;
+    margin: 15px;
+    margin-bottom: 50px;
+    transform: translate(50%,0%);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #382722;
+}
+.HOME .content_image #image1{
+    background-image: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HOME .content_image #image2{
+    background-image: url(2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HOME .content_image #image3{
+    background-image: url(3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HOME .content_image #image4{
+    background-image: url(4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HOME .content_image #image5{
+    background-image: url(5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HOME .content_image #image6{
+    background-image: url(6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HOME .content_image #image7{
+    background-image: url(7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HOME .content_image #image8{
+    background-image: url(8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.HOME .news1{
+    width: 95%;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+    top: 2600px;
+    left: 50px;
+    display: flex;
+    border-radius: 10px;
+    border-right: 10px solid #ff5100;
+    box-shadow: 1px 1px 10px 1px #aba8a8;
+}
+.HOME .news1 h3{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    font-family: cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #ff5100;
+}
+.HOME .news1 pre{
+    font-family: cursive;
+    font-size: 50px;
+    position: absolute;
+    top: 200px;
+    right: 100px;   
+}
+.HOME .news2{
+    width: 95%;
+    height: 700px;
+    background-color: white;
+    position: absolute;
+    top: 3400px;
+    left: 50px;
+    display: flex;
+    border-radius: 10px;
+    border-right: 10px solid #ff5100;
+    box-shadow: 1px 1px 10px 1px #aba8a8;
+}
+.HOME .news2 h3{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    font-family: cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #ff5100;
+}
+.HOME .news2 pre{
+    font-family: cursive;
+    font-size: 50px;
+    position: absolute;
+    top: 300px;
+    right: 500px; 
+}
+.HOME .news2 button{
+    cursor: pointer;
+    width: 400px;
+    height: 140px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #ff5100;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: cursive;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    transition: .3s;
+}
+.HOME .news2 button:hover{
+    transform: scale(1.2,1);
+    background-color: white;
+    color: #ff5100;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px #d4cfcf;
+    
+}
+/*
+.content .news div{
+    width: 45%;
+    height: 160px;
+    border-radius: 10px;
+    background-color: #ff5100;
+    margin: 10px;
+}
+*/
+
+footer{
+    width: 1200px;
+    height: 300px;
+    background-color: transparent;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+footer button{
+    width: 30%;
+    height: 160px;
+    margin: 20px 0px 0px 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: transparent;
+    transition: .4s;
+}
+footer button:hover{
+    transform: scale(1.1,1.1);
+    background-color: white;
+    color: #ff5100;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px #d4cfcf;
+    cursor: pointer;
+}
+footer button i{
+    font-size: 100px;
+    color: black;
+}
+.contact{
+    width: 100%;
+    height: 400px;
+    background-color: #4a4949;
+    position: absolute;
+    top: 400vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}  
+.contact ul{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    color: white;
+    font-family: cursive;
+    font-size: 60px;
+    list-style: none;
+    display: grid;
+}
+.contact ul li{
+    margin: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.contact ul li:hover{
+    color: #f1490c;
+}
+.contact ul li i{
+margin-right: 10px;
+font-size: larger;
+}
+/*End code of home page*/
+
+/*begin code of shop page*/
+.shop{
+    width: 100%;
+    height: 400vh;
+    background:purple;
+    display: none;
+}
+/*end code of shop page*/
+
+/*begin code of information page*/
+.information{
+    width: 100%;
+    height: 800px;
+    display: none;
+}
+.information h2{
+    text-align: center;
+    margin-right: 1000px;
+    font-family: cursive;
+    font-size: 100px;
+    font-weight: bolder;
+    color: #f1490c;
+}
+.information .information1{
+    width: 95%;
+    height: 700px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px #e8d7b8;
+    border-radius: 10px;
+    border-right: 10px #0ca90c solid;
+    margin: 200px auto 0px auto;
+}
+.information .information1 h3{
+    text-align:end;
+    margin-right: 100px;
+    font-size: 100px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #0ca90c;
+}
+.information .information1 pre{
+    text-align:end;
+    margin-top: 30px;
+    margin-right: 1100px;
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #0ca90c;
+    transform: scale(2,1.2);
+}
+
+
+.information .information2{
+    width: 95%;
+    height: 700px;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px #e8d7b8;
+    border-radius: 10px;
+    border-right: 10px red solid;
+    margin: 200px auto 0px auto;
+}
+.information .information2 h3{
+    text-align:end;
+    margin-right: 100px;
+    font-size: 100px;
+    font-family: cursive;
+    font-weight: bold;
+    color: red;
+}
+.information .information2 pre{
+    text-align:end;
+    margin-top: 30px;
+    margin-right: 1100px;
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: bold;
+    color: red;
+    transform: scale(2,1.2);
+}
+/*end code of information page*/
